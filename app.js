@@ -64,6 +64,31 @@ function createTeam() {
           }   
         ])
     }
+
+    function addIntern(){
+        inquirer.prompt([
+          {
+            type: "input",
+            message: "What is this intern's name?",
+            name: "internName"          
+          },
+          {
+            type: "input",
+            message: "What is their employee ID?",
+            name: "internId"
+          },
+          {
+            type: "input",
+            message: "What is their email?",
+            name: "internEmail" 
+          },
+          {
+            type: "input",
+            message: "What is their school?",
+            name: "internSchool"
+          }   
+        ])
+    }
 }
 
 // After the user has input all employees desired, call the `render` function (required
