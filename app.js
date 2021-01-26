@@ -140,6 +140,7 @@ function createTeam() {
             }
         });
     }
+    addManager();
 }
 
 createTeam();
