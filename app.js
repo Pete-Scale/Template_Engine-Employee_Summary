@@ -18,10 +18,25 @@ function createTeam() {
     function addManager(){
         inquirer.prompt([
           {
-              type: "input",
-              message: "As the manager, what is your name?",
-              name: "managerName"          
-          }  
+            type: "input",
+            message: "As manager, what is your name?",
+            name: "managerName"          
+          },
+          {
+            type: "input",
+            message: "What is your employee ID?",
+            name: "managerId"
+          },
+          {
+            type: "input",
+            message: "What is your email?",
+            name: "managerEmail" 
+          },
+          {
+            type: "input",
+            message: "What is your office number?",
+            name: "managerOfficeNumber"
+          }   
         ])
     }
 }
