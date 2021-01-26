@@ -37,7 +37,11 @@ function createTeam() {
             message: "What is your office number?",
             name: "managerOfficeNumber"
           }   
-        ])
+        ]).then(answers => {
+            const { managerName, managerId, managerEmail, managerOfficeNumber } = answers;
+            const manager = new Manager(managerName, managerId, managerEmail, managerOfficeNumber);
+            team.push(manager);
+        })
     }
 
     function addEngineer(){
