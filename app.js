@@ -45,22 +45,22 @@ function createTeam() {
         inquirer.prompt([
             {
                 type: "input",
-                message: "As manager, what is your name?",
+                message: "What is this manager's name?",
                 name: "name"          
             },
             {
                 type: "input",
-                message: "What is your employee ID?",
+                message: "What is their employee ID?",
                 name: "id"
             },
             {
                 type: "input",
-                message: "What is your email?",
+                message: "What is their email?",
                 name: "email" 
             },
             {
                 type: "input",
-                message: "What is your office number?",
+                message: "What is their office number?",
                 name: "officeNumber"
             }   
         ]).then(answers => {
@@ -140,7 +140,7 @@ function createTeam() {
             }
         });
     }
-    addManager();
+    newEmployee();
 }
 
 createTeam();
