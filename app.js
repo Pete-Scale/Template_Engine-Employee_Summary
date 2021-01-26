@@ -39,6 +39,31 @@ function createTeam() {
           }   
         ])
     }
+
+    function addEngineer(){
+        inquirer.prompt([
+          {
+            type: "input",
+            message: "What is this engineer's name?",
+            name: "engineerName"          
+          },
+          {
+            type: "input",
+            message: "What is their employee ID?",
+            name: "engineerId"
+          },
+          {
+            type: "input",
+            message: "What is their email?",
+            name: "engineerEmail" 
+          },
+          {
+            type: "input",
+            message: "What is their GitHub username?",
+            name: "engineerGithub"
+          }   
+        ])
+    }
 }
 
 // After the user has input all employees desired, call the `render` function (required
