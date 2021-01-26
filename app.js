@@ -16,6 +16,33 @@ let team = [];
 
 function createTeam() {
 
+    function newEmployee() {
+        inquirer.prompt([
+            {
+                type: "list",
+                message: "What type of employee would you like to add to your team?",
+                name: "employeeType",
+                choices: [
+                    "Manager",
+                    "Engineer",
+                    "Intern",
+                    "No more employees"
+                ]          
+            },   
+        ]).then(answer => {
+            const { employeeType } = answer;
+            if(employeeType === "Manager") {
+                addManager();
+            } else if(employeeType === "Engineer") {
+                addEngineer();
+            } else if(employeeType === "Intern") {
+                addIntern();
+            } else {
+                renderTeam();
+            }
+        });
+    }
+
     function addManager() {
         inquirer.prompt([
             {
@@ -46,7 +73,7 @@ function createTeam() {
         });
     }
 
-    function addEngineer(){
+    function addEngineer() {
         inquirer.prompt([
             {
                 type: "input",
@@ -76,7 +103,7 @@ function createTeam() {
         });
     }
 
-    function addIntern(){
+    function addIntern() {
         inquirer.prompt([
             {
                 type: "input",
