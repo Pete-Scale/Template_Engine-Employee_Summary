@@ -2,15 +2,20 @@
 
 ![Template Engine Employee Summary Image](./assets/template_engine-employee_summary.png)
 
+<br>
+
+---
+
 ## Link
 
-Here is a quick gif showing how to use the app.
-
-![gif file](./assets/t_e-e_sGIF.gif)
-
-Also a full video demonstration of how to use the application.
+Here is a full video demonstration of how to use the application.
 
 https://drive.google.com/file/d/1hlOnbTsR-k8C8VrKgtwvs2i3sMTrKYNO/view?usp=sharing
+
+Also here is a quick gif.
+
+![gif file](./assets/t_e-e_s-GIF.gif)
+
 
 <br>
 
@@ -44,11 +49,11 @@ A command-line application using node.js and the inquirer package that allows a 
 
     * https://nodejs.org/en/
 
-2. Open your terminal in the application file folder
+2. Open your terminal in the application file folder.
     
     `./template_engine-employee_summary`
 
-2. Install the node modules for the inquirer package
+2. Install the node modules for the inquirer package.
     ```
     npm install
     ```
@@ -59,7 +64,7 @@ A command-line application using node.js and the inquirer package that allows a 
 
 ## Usage
 
-1. Start the application
+1. Start the application.
     ```
     npm start
     ```
@@ -68,11 +73,11 @@ A command-line application using node.js and the inquirer package that allows a 
     ```
     node app.js
     ```
-2. Answer the series of question prompts to create your team
+2. Answer the series of question prompts to create your team.
 
-3. When you are done adding team members choose the `No more employees` option
+3. When you are done adding team members choose the `No more employees` option.
 
-    * `team.html` will be created and sent to the `output` folder
+    * `team.html` will be created and sent to the `output` folder.
 
 <br>
 
