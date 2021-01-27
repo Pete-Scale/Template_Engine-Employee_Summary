@@ -6,7 +6,7 @@
 
 A video demonstration of how to use the application.
 
-https://drive.google.com/file/d/1sWUFfq0IpVaYJGFWgRatr0M7apI3S9lo/view?usp=sharing
+https://drive.google.com/file/d/1v6sVh5buWtU6l7iL2H93ZoCtSZqwdTNY/view?usp=sharing
 
 <br>
 
