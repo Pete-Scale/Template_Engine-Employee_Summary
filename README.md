@@ -14,7 +14,7 @@ https://drive.google.com/file/d/1hlOnbTsR-k8C8VrKgtwvs2i3sMTrKYNO/view?usp=shari
 
 Also here is a quick gif.
 
-![gif file](./assets/t_e-e_s-GIF.gif)
+![gif file](.\assets\t_e-e_s-GIF.gif)
 
 
 <br>
