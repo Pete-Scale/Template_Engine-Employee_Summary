@@ -4,7 +4,11 @@
 
 ## Link
 
-A video demonstration of how to use the application.
+Here is a quick gif showing how to use the app.
+
+![gif file](./assets/t_e-e_sGIF.gif)
+
+Also a full video demonstration of how to use the application.
 
 https://drive.google.com/file/d/1hlOnbTsR-k8C8VrKgtwvs2i3sMTrKYNO/view?usp=sharing
 
